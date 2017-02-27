@@ -216,3 +216,15 @@ G:\DustyTRON\DustyTron Software\TCPClientXbox3.0\TCPClientXbox\TCPClientClean\ob
 G:\DustyTRON\DustyTron Software\TCPClientXbox3.0\TCPClientXbox\TCPClientClean\bin\Debug\TCPClientClean.exe
 G:\DustyTRON\DustyTron Software\TCPClientXbox3.0\TCPClientXbox\TCPClientClean\bin\Debug\TCPClientClean.pdb
 G:\DustyTRON\DustyTron Software\TCPClientXbox3.0\TCPClientXbox\TCPClientClean\bin\Debug\TCPClientClean.xml
+C:\Users\Lisa\Documents\DustyTRON\Software Git\TCPClientXbox\TCPClientClean\bin\Debug\TCPClientClean.exe.config
+C:\Users\Lisa\Documents\DustyTRON\Software Git\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.exe
+C:\Users\Lisa\Documents\DustyTRON\Software Git\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.xml
+C:\Users\Lisa\Documents\DustyTRON\Software Git\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.pdb
+C:\Users\Lisa\Documents\DustyTRON\Software Git\TCPClientXbox\TCPClientClean\bin\Debug\TCPClientClean.exe
+C:\Users\Lisa\Documents\DustyTRON\Software Git\TCPClientXbox\TCPClientClean\bin\Debug\TCPClientClean.pdb
+C:\Users\Lisa\Documents\DustyTRON\Software Git\TCPClientXbox\TCPClientClean\bin\Debug\TCPClientClean.xml
+C:\Users\Lisa\Documents\DustyTRON\Software Git\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.vbprojResolveAssemblyReference.cache
+C:\Users\Lisa\Documents\DustyTRON\Software Git\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.ButtonLayout.resources
+C:\Users\Lisa\Documents\DustyTRON\Software Git\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.Form1.resources
+C:\Users\Lisa\Documents\DustyTRON\Software Git\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.Resources.resources
+C:\Users\Lisa\Documents\DustyTRON\Software Git\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.vbproj.GenerateResource.Cache

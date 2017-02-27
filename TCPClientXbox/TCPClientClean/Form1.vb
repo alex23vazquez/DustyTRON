@@ -1,4 +1,5 @@
 ﻿
+
 Imports Microsoft.Xna
 Imports Microsoft.Xna.Framework
 Imports Microsoft.Xna.Framework.Input
@@ -50,6 +51,7 @@ Public Class Form1
 
     '-------Kill Switch-----------
     Dim kills As Integer = 0 'kill switch
+    Dim kills2 As Integer = 0 'kill2 switch
     Dim KillSwitch As Char = "'"
 
     '-------AUGER System-----------
@@ -73,14 +75,14 @@ Public Class Form1
     Dim StopAugerActuators As Char = "m"
 
     '--------Auger Actuator Movements-----------------
-    Dim LeftThumbCenter As Integer = 0
+    Dim RightThumbCenter2 As Integer = 0
     Dim a1 As Integer = 0
     Dim a2 As Integer = 0
     Dim a6 As Integer = 0
-    Dim LeftThumbUp As Integer = 0
-    Dim LeftThumbLeft As Integer = 0
-    Dim LeftThumbRight As Integer = 0
-    Dim LeftThumbDown As Integer = 0
+    Dim RightThumbUp2 As Integer = 0
+    Dim RightThumbLeft2 As Integer = 0
+    Dim RightThumbRight2 As Integer = 0
+    Dim RightThumbDown2 As Integer = 0
 
     '---------CONVEYOR BELT----------
     Dim ConvBeltRev As Integer = 0
@@ -149,14 +151,16 @@ Public Class Form1
 
     Public Sub Timer1_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Timer1.Tick
         Dim currentState As GamePadState = GamePad.GetState(PlayerIndex.One)
-        'Dim currentState2 As GamePadState = GamePad.GetState(PlayerIndex.Two)
-        augermovements(currentState)
+        Dim currentState2 As GamePadState = GamePad.GetState(PlayerIndex.Two)
+        augermovements(currentState2)
         wheelmovements(currentState)
         buttons(currentState)
+        buttons2(currentState2)
         dpad(currentState)
-        bumpers(currentState)
-        trigger(currentState)
-
+        dpad2(currentState2)
+        triggers(currentState)
+        triggers2(currentState2)
+        ' Commented out by lisa because it is in buttons2 function
         'If currentState2.IsConnected Then
 
         '    If currentState2.Buttons.B = ButtonState.Pressed And kills2 = 0 Then
@@ -171,69 +175,69 @@ Public Class Form1
         'End If
     End Sub
 
-    Public Sub augermovements(currentState As GamePadState) 'must change wheelLF to something like augermovements
+    Public Sub augermovements(currentState2 As GamePadState) 'must change wheelLF to something like augermovements
         '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Left thumbstick<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
         '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Stop Auger Movements<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
         '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Left Thumbstick at the center<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-        If currentState.ThumbSticks.Left.Y > -0.1F And currentState.ThumbSticks.Left.Y < 0.1F And currentState.ThumbSticks.Left.X > -0.1F And currentState.ThumbSticks.Left.X < 0.1F And LeftThumbCenter = 0 Then
-            LeftThumbCenter = 1
-            LeftThumbUp = 0
-            LeftThumbDown = 0
-            LeftThumbLeft = 0
-            LeftThumbRight = 0
+        If currentState2.ThumbSticks.Right.Y > -0.1F And currentState2.ThumbSticks.Right.Y < 0.1F And currentState2.ThumbSticks.Right.X > -0.1F And currentState2.ThumbSticks.Right.X < 0.1F And RightThumbCenter2 = 0 Then
+            RightThumbCenter2 = 1
+            RightThumbUp2 = 0
+            RightThumbDown2 = 0
+            RightThumbLeft2 = 0
+            RightThumbRight2 = 0
 
             a1 = 0
             a6 = 0
 
             SendKeys.Send(StopAugerActuators)
-            ListBox1.Items.Add(StopAugerActuators)
+            ListBox2.Items.Add(StopAugerActuators)
 
-        ElseIf currentState.ThumbSticks.Left.Y > 0.1F Or currentState.ThumbSticks.Left.Y < -0.1F Or currentState.ThumbSticks.Left.X > 0.1F Or currentState.ThumbSticks.Left.X < -0.1F And LeftThumbCenter = 1 Then
-            LeftThumbCenter = 0
+        ElseIf currentState2.ThumbSticks.Right.Y > 0.1F Or currentState2.ThumbSticks.Right.Y < -0.1F Or currentState2.ThumbSticks.Right.X > 0.1F Or currentState2.ThumbSticks.Right.X < -0.1F And RightThumbCenter2 = 1 Then
+            RightThumbCenter2 = 0
         End If
 
         '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Left Thumbstick Foward<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-        If currentState.ThumbSticks.Left.Y > 0.5F And currentState.ThumbSticks.Left.Y < 1.5F Then
-            If LeftThumbUp = 0 Then
-                LeftThumbUp = 1
+        If currentState2.ThumbSticks.Right.Y > 0.5F And currentState2.ThumbSticks.Right.Y < 1.5F Then
+            If RightThumbUp2 = 0 Then
+                RightThumbUp2 = 1
                 SendKeys.Send(AugerUp)
-                ListBox1.Items.Add(AugerUp)
+                ListBox2.Items.Add(AugerUp)
 
             End If
 
         End If
 
         '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Left Thumbstick Backward<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-        If currentState.ThumbSticks.Left.Y < -0.5F And currentState.ThumbSticks.Left.Y > -1.5F Then
+        If currentState2.ThumbSticks.Right.Y < -0.5F And currentState2.ThumbSticks.Right.Y > -1.5F Then
 
-            If LeftThumbDown = 0 Then
-                LeftThumbDown = 1
+            If RightThumbDown2 = 0 Then
+                RightThumbDown2 = 1
                 SendKeys.Send(AugerDown)
-                ListBox1.Items.Add(AugerDown)
+                ListBox2.Items.Add(AugerDown)
 
             End If
 
         End If
 
         '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Left Thumbstick Left<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-        If currentState.ThumbSticks.Left.X < -0.5F And currentState.ThumbSticks.Left.X > -1.5F Then
+        If currentState2.ThumbSticks.Right.X < -0.5F And currentState2.ThumbSticks.Right.X > -1.5F Then
 
-            If LeftThumbLeft = 0 Then
-                LeftThumbLeft = 1
+            If RightThumbLeft2 = 0 Then
+                RightThumbLeft2 = 1
                 SendKeys.Send(AugerLeft)
-                ListBox1.Items.Add(AugerLeft)
+                ListBox2.Items.Add(AugerLeft)
 
             End If
 
         End If
 
         '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Left Thumbstick Right<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-        If currentState.ThumbSticks.Left.X > 0.5F And currentState.ThumbSticks.Left.X < 1.5F Then
-            If LeftThumbRight = 0 Then
-                LeftThumbRight = 1
+        If currentState2.ThumbSticks.Right.X > 0.5F And currentState2.ThumbSticks.Right.X < 1.5F Then
+            If RightThumbRight2 = 0 Then
+                RightThumbRight2 = 1
                 SendKeys.Send(AugerRight)
-                ListBox1.Items.Add(AugerRight)
+                ListBox2.Items.Add(AugerRight)
 
             End If
 
@@ -313,38 +317,7 @@ Public Class Form1
 
     End Sub
 
-    Public Sub buttons(currentState As GamePadState) 'I created this public sub, Not sure if it is done correctly
-
-        '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Auger SLOW Dumping and Excavating<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-        '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Y Button Pressed<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-        '---------AUGER REVERSE (Dumping the dirt up high at Low Speed)-------------
-        If currentState.Buttons.Y = ButtonState.Pressed And AugerDump = 0 Then
-            AugerDump = 1
-            SendKeys.Send(SpeedReverseAuger)
-            ListBox1.Items.Add(SpeedReverseAuger)
-            'MsgBox("Im Awesome")
-        End If
-        If currentState.Buttons.Y = ButtonState.Released And AugerDump = 1 Then
-            AugerDump = 0
-            SendKeys.Send(StopAuger)
-            ListBox1.Items.Add(StopAuger)
-
-        End If
-
-        '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<X Button Pressed<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-        '---------AUGER EXCAVATING (Excavating the dirt up down low at Slow Speed)-------------
-        If currentState.Buttons.X = ButtonState.Pressed And AugerExcavate = 0 Then
-            AugerExcavate = 1
-            SendKeys.Send(SpeedForwardAuger)
-            ListBox1.Items.Add(SpeedForwardAuger)
-
-        End If
-        If currentState.Buttons.X = ButtonState.Released And AugerExcavate = 1 Then
-            AugerExcavate = 0
-            SendKeys.Send(StopAuger)
-            ListBox1.Items.Add(StopAuger)
-
-        End If
+    Public Sub buttons(currentState As GamePadState) 'Alex created this public sub, Not sure if it is done correctly
 
 
         '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Kill Switch<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
@@ -359,42 +332,60 @@ Public Class Form1
             kills = 0
         End If
 
-        '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Steering Actuators<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-        '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<A Button Pressed<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
 
     End Sub
+
+    Public Sub buttons2(currentState2 As GamePadState)
+
+        '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Auger SLOW Dumping and Excavating<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+        '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Y Button Pressed<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+        '---------AUGER REVERSE (Dumping the dirt up high at Low Speed)-------------
+        If currentState2.Buttons.Y = ButtonState.Pressed And AugerDump = 0 Then
+            AugerDump = 1
+            SendKeys.Send(SpeedReverseAuger)
+            ListBox2.Items.Add(SpeedReverseAuger)
+            'MsgBox("Im Awesome")
+        End If
+        If currentState2.Buttons.Y = ButtonState.Released And AugerDump = 1 Then
+            AugerDump = 0
+            SendKeys.Send(StopAuger)
+            ListBox2.Items.Add(StopAuger)
+
+        End If
+
+        '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<X Button Pressed<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+        '---------AUGER EXCAVATING (Excavating the dirt up down low at Slow Speed)-------------
+        If currentState2.Buttons.A = ButtonState.Pressed And AugerExcavate = 0 Then
+            AugerExcavate = 1
+            SendKeys.Send(SpeedForwardAuger)
+            ListBox2.Items.Add(SpeedForwardAuger)
+
+        End If
+        If currentState2.Buttons.A = ButtonState.Released And AugerExcavate = 1 Then
+            AugerExcavate = 0
+            SendKeys.Send(StopAuger)
+            ListBox2.Items.Add(StopAuger)
+
+        End If
+
+
+        '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Kill Switch<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+        '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<B Button Pressed<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+        If currentState2.Buttons.B = ButtonState.Pressed And kills2 = 0 Then
+            kills2 = 1
+            SendKeys.Send(KillSwitch)
+            ListBox2.Items.Add(KillSwitch)
+
+        End If
+        If currentState2.Buttons.B = ButtonState.Released And kills2 = 1 Then
+            kills2 = 0
+        End If
+
+
+    End Sub
+
     Public Sub dpad(currentState As GamePadState)
-
-        '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Conveyor Belt<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-        '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Directional Pad Left and Right<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-        '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Directional Pad Left<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-        If currentState.DPad.Left = ButtonState.Pressed And ConvBeltRev = 0 Then 'Auger Recolect
-            ConvBeltRev = 1
-            SendKeys.Send(ReverseConveyor)
-            ListBox1.Items.Add(ReverseConveyor)
-
-        End If
-
-        If currentState.DPad.Left = ButtonState.Released And ConvBeltRev = 1 Then 'Auger Recolect
-            SendKeys.Send(StopConveyor)
-            ListBox1.Items.Add(StopConveyor)
-            ConvBeltRev = 0
-        End If
-
-        '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Directional Pad Right<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-        If currentState.DPad.Right = ButtonState.Pressed And ConvBeltForw = 0 Then 'Auger Reverse
-            ConvBeltForw = 1
-            SendKeys.Send(ForwardConveyor)
-            ListBox1.Items.Add(ForwardConveyor)
-        End If
-
-        If currentState.DPad.Right = ButtonState.Released And ConvBeltForw = 1 Then 'Auger Reverse
-
-            SendKeys.Send(StopConveyor)
-            ListBox1.Items.Add(StopConveyor)
-            ConvBeltForw = 0
-
-        End If
 
 
         '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Steering Actuators<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
@@ -429,44 +420,43 @@ Public Class Form1
         End If
     End Sub
 
-    Public Sub bumpers(currentState As GamePadState)
-        '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Auger MAX Speed<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-        '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Left and Right Bumpers<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Public Sub dpad2(currentState2 As GamePadState)
 
-        '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Left Bumper Pressed<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-        '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<MAX DUMP Speed<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-        If currentState.Buttons.LeftShoulder = ButtonState.Pressed And AugerDumpMax = 0 Then
-
-            AugerDumpMax = 1
-            SendKeys.Send(FullSpeedReverseAuger)
-            ListBox1.Items.Add(FullSpeedReverseAuger)
+        '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Conveyor Belt<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+        '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Directional Pad Left and Right<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+        '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Directional Pad Left<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+        If currentState2.DPad.Down = ButtonState.Pressed And ConvBeltRev = 0 Then 'Auger Recolect
+            ConvBeltRev = 1
+            SendKeys.Send(ReverseConveyor)
+            ListBox2.Items.Add(ReverseConveyor)
 
         End If
 
-        If currentState.Buttons.LeftShoulder = ButtonState.Released And AugerDumpMax = 1 Then
-            AugerDumpMax = 0
-            SendKeys.Send(StopAuger)
-            ListBox1.Items.Add(StopAuger)
+        If currentState2.DPad.Down = ButtonState.Released And ConvBeltRev = 1 Then 'Auger Recolect
+            SendKeys.Send(StopConveyor)
+            ListBox2.Items.Add(StopConveyor)
+            ConvBeltRev = 0
         End If
 
-        '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Right Bumper Pressed<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-        '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<MAX Excavate Speed<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-        If currentState.Buttons.RightShoulder = ButtonState.Pressed And AugerExcavateMax = 0 Then
+        '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Directional Pad Right<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+        If currentState2.DPad.Up = ButtonState.Pressed And ConvBeltForw = 0 Then 'Auger Reverse
+            ConvBeltForw = 1
+            SendKeys.Send(ForwardConveyor)
+            ListBox2.Items.Add(ForwardConveyor)
+        End If
 
-            AugerExcavateMax = 1
-            SendKeys.Send(FullSpeedFowardAuger)
-            ListBox1.Items.Add(FullSpeedFowardAuger)
+        If currentState2.DPad.Up = ButtonState.Released And ConvBeltForw = 1 Then 'Auger Reverse
+
+            SendKeys.Send(StopConveyor)
+            ListBox2.Items.Add(StopConveyor)
+            ConvBeltForw = 0
 
         End If
 
-        If currentState.Buttons.RightShoulder = ButtonState.Released And AugerExcavateMax = 1 Then
-            AugerExcavateMax = 0
-            SendKeys.Send(StopAuger)
-            ListBox1.Items.Add(StopAuger)
-        End If
 
     End Sub
-    Public Sub trigger(currentState As GamePadState)
+
+    Public Sub triggers(currentState As GamePadState)
 
         '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Increment and Decrement Global Speeds<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
         '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Left and Right Triggers<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
@@ -613,39 +603,43 @@ Public Class Form1
         '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
     End Sub
 
-    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
+    Public Sub triggers2(currentState2 As GamePadState)
+        '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Auger MAX Speed<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+        '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Left and Right Bumpers<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+        '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Left Bumper Pressed<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+        '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<MAX DUMP Speed<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+        If currentState2.Triggers.Left = ButtonState.Pressed And AugerDumpMax = 0 Then
+
+            AugerDumpMax = 1
+            SendKeys.Send(FullSpeedReverseAuger)
+            ListBox2.Items.Add(FullSpeedReverseAuger)
+
+        End If
+
+        If currentState2.Triggers.Left = ButtonState.Released And AugerDumpMax = 1 Then
+            AugerDumpMax = 0
+            SendKeys.Send(StopAuger)
+            ListBox2.Items.Add(StopAuger)
+        End If
+
+        '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Right Bumper Pressed<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+        '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<MAX Excavate Speed<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+        If currentState2.Triggers.Right = ButtonState.Pressed And AugerExcavateMax = 0 Then
+
+            AugerExcavateMax = 1
+            SendKeys.Send(FullSpeedFowardAuger)
+            ListBox2.Items.Add(FullSpeedFowardAuger)
+
+        End If
+
+        If currentState2.Triggers.Right = ButtonState.Released And AugerExcavateMax = 1 Then
+            AugerExcavateMax = 0
+            SendKeys.Send(StopAuger)
+            ListBox2.Items.Add(StopAuger)
+        End If
 
     End Sub
 
-    Private Sub Label11_Click(sender As Object, e As EventArgs) Handles Label11.Click
 
-    End Sub
-
-    Private Sub Label16_Click(sender As Object, e As EventArgs)
-
-    End Sub
-
-    Private Sub PictureBox2_Click(sender As Object, e As EventArgs)
-
-    End Sub
-
-    Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
-
-    End Sub
-
-    Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs)
-
-    End Sub
-
-    Private Sub Label18_Click(sender As Object, e As EventArgs)
-
-    End Sub
-
-    Private Sub Label9_Click(sender As Object, e As EventArgs) Handles Label9.Click
-
-    End Sub
-
-    Private Sub Label23_Click(sender As Object, e As EventArgs) Handles Label23.Click
-
-    End Sub
 End Class
