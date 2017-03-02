@@ -52,20 +52,20 @@ int pwm_Backsteering = 7; // PWM Pin 7 of arduino to M2PWM
 //Polulu Motor Drive 6
 //// All these 4 actuators are connected to the same Pololu
 /*******************(Horizontal Auger, Up & Down)************************/
-int AM1A_Horizontal = 34; //Digital Pin 34 of arduino to M1NA of Pololu
-int AM1B_Horizontal = 35; //Digital pin 35 of arduino to M1NB of Pololu
+int AM1A_Horizontal = 37; //Digital Pin 37 of arduino to M1NA of Pololu
+int AM1B_Horizontal = 38; //Digital pin 38 of arduino to M1NB of Pololu
 int pwm_Horizontal = 8;// PWM Pin 8 of arduino to M1PWM
 /*******************(Vertical Auger, Left & Right)************************/
-int AM1A_Vertical = 36; // Digital Pin 36 of arduino to M2NA of Pololu
-int AM1B_Vertical = 37; // Digital Pin 37 of arduino to M2NB of Pololu
+int AM1A_Vertical = 39; // Digital Pin 39 of arduino to M2NA of Pololu
+int AM1B_Vertical = 40; // Digital Pin 40 of arduino to M2NB of Pololu
 int pwm_Vertical = 9; // PWM Pin 9 of arduino to M2PWM
 
 
                                 //Conveyor Variables
 //Polulu Motor Drive 7
 /*******************(Conveyor)************************/
-int CM1A = 39;//Digital Pin 39 of arduino to M1NA of Pololu
-int CM1B = 40;//Digital pin 40 of arduino to M1NB of Pololu
+int CM1A = 41;//Digital Pin 41 of arduino to M1NA of Pololu
+int CM1B = 42;//Digital pin 42 of arduino to M1NB of Pololu
 int pwm_conveyor = 10;// PWM Pin 10 of arduino to M1PWM
 
 
