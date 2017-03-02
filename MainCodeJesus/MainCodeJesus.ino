@@ -254,21 +254,25 @@ if (command == '`') //KILL SWITCH the button below esc, left of 1
 // example is Serial.print(78) gives "78"
 // syntax is Serial.print(val) or Serial.print(val,format) where format is in either BIN, OCT, DEC, HEX,
   
-if(command == '2'){  //Increment the speed
+if(command == '3'){  //Increment the speed
   if (spd == 255) // 255 is the max, if the speed is at 255 then it that value is printed.
   {
     Serial.print(spd);
   }else{ // if the value is not 255 when 2 is pressed then it will higher it by 15 each time
-   spd+= 15;
+   spd+= 51;
   } 
 }
+if(command == '2'){  //Increment the speed
+    spd == 153
+    Serial.print(spd);
+}
 
-if(command == '1'){  //Decrement the speed
+if(command == '3'){  //Decrement the speed
   if (spd == 0) // 0 is the minimum, if the speed is 0 then that value is printed.
   {
    Serial.print(spd);
   }else{ // if the value is not 0 then the speed will be decremented by 15 each time 1 is pressed.
-   spd-= 15;
+   spd-= 51;
    }
 }
 
@@ -285,13 +289,13 @@ if(command == 'f') // need to find a different key that is not q maybe f
 
 if(command == 'w')  //front and back wheels going forward
 {
-  victor(1, WM1A_LeftFront, WM1B_LeftFront); // forward or clockwise
+  victor(1, WM1A_LeftFront, WM1B_LeftFront); // forward or counter clockwise
   wheelSpeed(2, spd, pwm_LeftFront); //reactivate
 
-  victor(1, WM1A_RightFront, WM1B_RightFront); // forward or clockwise
+  victor(1, WM1A_RightFront, WM1B_RightFront); // forward or counte clockwise
   wheelSpeed(2, spd, pwm_RightFront); //reactivate
 
-  victor(1, WM1A_LeftBack, WM1B_LeftBack); // reactivate forward or clockwise
+  victor(1, WM1A_LeftBack, WM1B_LeftBack); // reactivate forward or counter clockwise
   wheelSpeed(2, spd, pwm_LeftBack);//reactivate
 
   victor(1, WM1A_RightBack, WM1B_RightBack); // reactivate forward or clockwise
@@ -315,8 +319,10 @@ if(command == 's') // Front and Back Wheels going reverse
   wheelSpeed(2, spd, pwm_RightBack);//reactivate
 }
 
-
-if(command == 'r')// stop steering actuators have to check if this is correct
+//**************************************************************************************
+//*******************this part is for the actuators' movement **************************
+  
+if(command == 'v')// stop steering actuators have to check if this is correct
    {
 setDirection_ACT(0, SA1A_Front , SA1B_Front ); // 
     digitalWrite(pwm_Frontsteering, HIGH);
@@ -325,9 +331,21 @@ setDirection_ACT(0, SA1A_Front , SA1B_Front ); //
     digitalWrite(pwm_Backsteering , HIGH);
 }
 
-if(command == 'q')// Retract actuators to have diagonal wheels
+if(command == 'x')// Retract actuators to have diagonal wheels
    {
-setDirection_ACT(2, SA1A_Front , SA1B_Front ); // Retract steering actuators
+    setDirection_ACT(1, SA1A_Front , SA1B_Front ); // Extract Front steering actuators
+    digitalWrite(pwm_Frontsteering, HIGH);
+
+    setDirection_ACT(1, SA1A_Back , SA1B_Back ); // Extract Back steering actuators
+    digitalWrite(pwm_Backsteering , HIGH);
+  
+    Delay (4000);
+  
+    digitalWrite(pwm_Frontsteering, LOW);// turn off actuators
+    digitalWrite(pwm_Backsteering ,LOW); // turn off actuators
+    Delay (1000);
+  
+    setDirection_ACT(2, SA1A_Front , SA1B_Front ); // Retract steering actuators
     digitalWrite(pwm_Frontsteering, HIGH);
 
     setDirection_ACT(2, SA1A_Back , SA1B_Back ); // Retract steering actuators
@@ -335,11 +353,11 @@ setDirection_ACT(2, SA1A_Front , SA1B_Front ); // Retract steering actuators
   
      Delay (2000);
   
-    digitalWrite(pwm_Frontsteering, LOW);
-    digitalWrite(pwm_Backsteering ,LOW);
+    digitalWrite(pwm_Frontsteering, LOW);// turn off actuators
+    digitalWrite(pwm_Backsteering ,LOW);// turn off actuators
 }
   
-if(command == 'q')// Retract actuators horizontal wheels
+if(command == 'z')// Retract actuators horizontal wheels
    {
 setDirection_ACT(2, SA1A_Front , SA1B_Front ); // Retract steering actuators
     digitalWrite(pwm_Frontsteering, HIGH);
@@ -347,7 +365,7 @@ setDirection_ACT(2, SA1A_Front , SA1B_Front ); // Retract steering actuators
     setDirection_ACT(2, SA1A_Back , SA1B_Back ); // Retract steering actuators
     digitalWrite(pwm_Backsteering , HIGH);
 }
-if(command == 'e')// Extract actuators to have straight wheels
+if(command == 'c')// Extract actuators to have straight wheels
    {
 setDirection_ACT(1, SA1A_Front , SA1B_Front ); // Extract Front steering actuators
     digitalWrite(pwm_Frontsteering, HIGH);
@@ -355,7 +373,8 @@ setDirection_ACT(1, SA1A_Front , SA1B_Front ); // Extract Front steering actuato
     setDirection_ACT(1, SA1A_Back , SA1B_Back ); // Extract Back steering actuators
     digitalWrite(pwm_Backsteering , HIGH);
 }
-
+//***********^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^****************************
+//*************^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^****************************
 if(command == 'd')// rotation clockwise or to turn right
 {
   victor(1, WM1A_LeftFront, WM1B_LeftFront); // reactivate forward
