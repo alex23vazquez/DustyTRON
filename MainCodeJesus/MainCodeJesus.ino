@@ -339,11 +339,11 @@ if(command == 'x')// Retract actuators to have diagonal wheels
     setDirection_ACT(1, SA1A_Back , SA1B_Back ); // Extract Back steering actuators
     digitalWrite(pwm_Backsteering , HIGH);
   
-    Delay (4000);
+    delay (4000);
   
     digitalWrite(pwm_Frontsteering, LOW);// turn off actuators
     digitalWrite(pwm_Backsteering ,LOW); // turn off actuators
-    Delay (1000);
+    delay (1000);
   
     setDirection_ACT(2, SA1A_Front , SA1B_Front ); // Retract steering actuators
     digitalWrite(pwm_Frontsteering, HIGH);
@@ -351,7 +351,7 @@ if(command == 'x')// Retract actuators to have diagonal wheels
     setDirection_ACT(2, SA1A_Back , SA1B_Back ); // Retract steering actuators
     digitalWrite(pwm_Backsteering , HIGH);
   
-     Delay (2000);
+     delay (2000);
   
     digitalWrite(pwm_Frontsteering, LOW);// turn off actuators
     digitalWrite(pwm_Backsteering ,LOW);// turn off actuators
