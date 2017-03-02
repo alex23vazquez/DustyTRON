@@ -325,8 +325,21 @@ setDirection_ACT(0, SA1A_Front , SA1B_Front ); //
     digitalWrite(pwm_Backsteering , HIGH);
 }
 
-
 if(command == 'q')// Retract actuators to have diagonal wheels
+   {
+setDirection_ACT(2, SA1A_Front , SA1B_Front ); // Retract steering actuators
+    digitalWrite(pwm_Frontsteering, HIGH);
+
+    setDirection_ACT(2, SA1A_Back , SA1B_Back ); // Retract steering actuators
+    digitalWrite(pwm_Backsteering , HIGH);
+  
+     Delay (2000);
+  
+    digitalWrite(pwm_Frontsteering, LOW);
+    digitalWrite(pwm_Backsteering ,LOW);
+}
+  
+if(command == 'q')// Retract actuators horizontal wheels
    {
 setDirection_ACT(2, SA1A_Front , SA1B_Front ); // Retract steering actuators
     digitalWrite(pwm_Frontsteering, HIGH);
