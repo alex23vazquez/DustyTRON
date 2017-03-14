@@ -71,8 +71,22 @@ Public Class Form1
     Dim AugerDown As Char = "k"
     Dim AugerLeft As Char = "j"
     Dim AugerRight As Char = "l"
-
     Dim StopAugerActuators As Char = "m"
+    
+    '---------PanTilt Base---------- 
+    Dim tiltUp as Char = "y"
+    Dim tiltDown as Char = "t"
+    Dim panLeft as Char = "g"
+    Dim panRight as Char = "h"
+    Dim resetAll as Char = "b"
+    
+    Dim tilt_Up As Integer = 0
+    Dim tilt_Down As Integer = 0
+    Dim pan_Left As Integer = 0
+    Dim pan_Right As Integer = 0
+    Dim reset_All As Integer = 0
+    '---------end of PanTilt Base----------
+    
 
     '--------Auger Actuator Movements-----------------
     Dim RightThumbCenter2 As Integer = 0
@@ -160,6 +174,7 @@ Public Class Form1
         dpad2(currentState2)
         triggers(currentState)
         triggers2(currentState2)
+        camera(currentState)
         ' Commented out by lisa because it is in buttons2 function
         'If currentState2.IsConnected Then
 
@@ -179,7 +194,7 @@ Public Class Form1
         '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Left thumbstick<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
         '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Stop Auger Movements<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
-        '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Left Thumbstick at the center<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+        '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Right Thumbstick at the center<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
         If currentState2.ThumbSticks.Right.Y > -0.1F And currentState2.ThumbSticks.Right.Y < 0.1F And currentState2.ThumbSticks.Right.X > -0.1F And currentState2.ThumbSticks.Right.X < 0.1F And RightThumbCenter2 = 0 Then
             RightThumbCenter2 = 1
             RightThumbUp2 = 0
@@ -197,7 +212,7 @@ Public Class Form1
             RightThumbCenter2 = 0
         End If
 
-        '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Left Thumbstick Foward<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+        '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Right Thumbstick Foward<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
         If currentState2.ThumbSticks.Right.Y > 0.5F And currentState2.ThumbSticks.Right.Y < 1.5F Then
             If RightThumbUp2 = 0 Then
                 RightThumbUp2 = 1
@@ -220,7 +235,7 @@ Public Class Form1
 
         End If
 
-        '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Left Thumbstick Left<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+        '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Right Thumbstick Left<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
         If currentState2.ThumbSticks.Right.X < -0.5F And currentState2.ThumbSticks.Right.X > -1.5F Then
 
             If RightThumbLeft2 = 0 Then
@@ -232,7 +247,7 @@ Public Class Form1
 
         End If
 
-        '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Left Thumbstick Right<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+        '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Right Thumbstick Right<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
         If currentState2.ThumbSticks.Right.X > 0.5F And currentState2.ThumbSticks.Right.X < 1.5F Then
             If RightThumbRight2 = 0 Then
                 RightThumbRight2 = 1
@@ -316,6 +331,73 @@ Public Class Form1
         End If
 
     End Sub
+    
+    Public Sub camera(currentState As GamePadState) 'must change wheelLF to something like augermovements
+        '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Left thumbstick<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+        
+        '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Reset Camera Position<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+        '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<left Thumbstick at the center<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+        If currentState.ThumbSticks.Left.Y > -0.1F And currentState2.ThumbSticks.Left.Y < 0.1F And currentState.ThumbSticks.Left.X > -0.1F And currentState.ThumbSticks.Left.X < 0.1F And reset_All = 0 Then
+            reset_All = 1
+            tilt_Up = 0
+            tilt_Down = 0
+            pan_Left = 0
+            pan_Right = 0
+
+            SendKeys.Send(resetAll)
+            ListBox.Items.Add(resetAll)
+
+        ElseIf currentState.ThumbSticks.Left.Y > 0.1F Or currentState.ThumbSticks.Left.Y < -0.1F Or currentState.ThumbSticks.Left.X > 0.1F Or currentState.ThumbSticks.Left.X < -0.1F And reset_All = 1 Then
+            reset_All = 0
+        End If
+
+        '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Left Thumbstick Foward<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+        If currentState.ThumbSticks.Left.Y > 0.5F And currentState.ThumbSticks.Left.Y < 1.5F Then
+            If tilt_Up = 0 Then
+                tilt_Up = 1
+                SendKeys.Send(tiltUp)
+                ListBox.Items.Add(tiltUp)
+
+            End If
+
+        End If
+
+        '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Left Thumbstick Backward<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+        If currentState.ThumbSticks.Left.Y < -0.5F And currentState.ThumbSticks.Left.Y > -1.5F Then
+
+            If tilt_Down = 0 Then
+                tilt_down = 1
+                SendKeys.Send(tiltDown)
+                ListBox.Items.Add(tiltDown)
+
+            End If
+
+        End If
+
+        '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Left Thumbstick Left<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+        If currentState.ThumbSticks.Left.X < -0.5F And currentState.ThumbSticks.Left.X > -1.5F Then
+
+            If pan_Left = 0 Then
+                pan_Left = 1
+                SendKeys.Send(panLeft)
+                ListBox.Items.Add(panLeft)
+
+            End If
+
+        End If
+
+        '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Left Thumbstick Right<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+        If currentState.ThumbSticks.Left.X > 0.5F And currentState.ThumbSticks.Left.X < 1.5F Then
+            If pan_Right = 0 Then
+                pan_Right = 1
+                SendKeys.Send(panRight)
+                ListBox.Items.Add(panRight)
+
+            End If
+
+        End If
+
+    End Sub
 
     Public Sub buttons(currentState As GamePadState) 'Alex created this public sub, Not sure if it is done correctly
 
@@ -335,6 +417,8 @@ Public Class Form1
 
 
     End Sub
+    
+    
 
     Public Sub buttons2(currentState2 As GamePadState)
 
