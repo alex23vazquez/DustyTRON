@@ -1,4 +1,4 @@
-﻿
+
 
 Imports Microsoft.Xna
 Imports Microsoft.Xna.Framework
@@ -72,18 +72,43 @@ Public Class Form1
     Dim AugerLeft As Char = "j"
     Dim AugerRight As Char = "l"
     Dim StopAugerActuators As Char = "m"
-    
+
     '---------PanTilt Base---------- 
-    Dim tiltUp as Char = "y"
-    Dim tiltDown as Char = "t"
-    Dim panLeft as Char = "g"
-    Dim panRight as Char = "h"
+    Dim tiltUp As Char = "y"
+    'Dim twotiltUp As Char = "yy"
+    'Dim threetiltUp As Char = "yyy"
+
+    Dim tiltDown As Char = "t"
+    'Dim twotiltDown As Char = "tt"
+    'Dim threetiltDown As Char = "ttt"
+
+    Dim panLeft As Char = "g"
+    'Dim twopanLeft As Char = "gg"
+    'Dim threepanLeft As Char = "ggg"
+
+    Dim panRight As Char = "h"
+    'Dim twopanRight As Char = "hh"
+    'Dim threepanRight As Char = "hhh"
+
     Dim resetAll as Char = "b"
-    
+
     Dim tilt_Up As Integer = 0
+    'Dim twotilt_Up As Integer = 0
+    'Dim threetilt_Up As Integer = 0
+
     Dim tilt_Down As Integer = 0
+    'Dim twotilt_Down As Integer = 0
+    'Dim threetilt_Down As Integer = 0
+
     Dim pan_Left As Integer = 0
+    'Dim twopan_Left As Integer = 0
+    'Dim threepan_Left As Integer = 0
+
     Dim pan_Right As Integer = 0
+    'Dim twopan_Right As Integer = 0
+    'Dim threepan_Right As Integer = 0
+
+
     Dim reset_All As Integer = 0
     '---------end of PanTilt Base----------
     
@@ -334,64 +359,85 @@ Public Class Form1
     
     Public Sub camera(currentState As GamePadState) 'must change wheelLF to something like augermovements
         '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Left thumbstick<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-        
+
+        '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Reset Camera Position<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+        '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<left Thumbstick at the center click<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+        If currentState.Buttons.LeftStick = ButtonState.Pressed And reset_All = 1 Then
+            reset_All = 0
+            SendKeys.Send(resetAll)
+            ListBox1.Items.Add(resetAll)
+        End If
+        'If currentState.Buttons.LeftStick = ButtonState.Released And reset_All = 0 Then
+        '    reset_All = 1
+
+        'End If
+
+
         '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Reset Camera Position<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
         '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<left Thumbstick at the center<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-        If currentState.ThumbSticks.Left.Y > -0.1F And currentState2.ThumbSticks.Left.Y < 0.1F And currentState.ThumbSticks.Left.X > -0.1F And currentState.ThumbSticks.Left.X < 0.1F And reset_All = 0 Then
+        If currentState.ThumbSticks.Left.Y > -0.1F And currentState.ThumbSticks.Left.Y < 0.1F And currentState.ThumbSticks.Left.X > -0.1F And currentState.ThumbSticks.Left.X < 0.1F And reset_All = 0 Then
             reset_All = 1
             tilt_Up = 0
             tilt_Down = 0
             pan_Left = 0
             pan_Right = 0
 
-            SendKeys.Send(resetAll)
-            ListBox.Items.Add(resetAll)
+            'SendKeys.Send()
+            'ListBox1.Items.Add(resetAll)
 
         ElseIf currentState.ThumbSticks.Left.Y > 0.1F Or currentState.ThumbSticks.Left.Y < -0.1F Or currentState.ThumbSticks.Left.X > 0.1F Or currentState.ThumbSticks.Left.X < -0.1F And reset_All = 1 Then
             reset_All = 0
         End If
 
         '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Left Thumbstick Foward<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
         If currentState.ThumbSticks.Left.Y > 0.5F And currentState.ThumbSticks.Left.Y < 1.5F Then
             If tilt_Up = 0 Then
                 tilt_Up = 1
                 SendKeys.Send(tiltUp)
-                ListBox.Items.Add(tiltUp)
+                ListBox1.Items.Add(tiltUp)
 
             End If
 
         End If
 
         '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Left Thumbstick Backward<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
         If currentState.ThumbSticks.Left.Y < -0.5F And currentState.ThumbSticks.Left.Y > -1.5F Then
 
             If tilt_Down = 0 Then
-                tilt_down = 1
+                tilt_Down = 1
                 SendKeys.Send(tiltDown)
-                ListBox.Items.Add(tiltDown)
+                ListBox1.Items.Add(tiltDown)
 
             End If
 
         End If
 
         '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Left Thumbstick Left<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
         If currentState.ThumbSticks.Left.X < -0.5F And currentState.ThumbSticks.Left.X > -1.5F Then
 
             If pan_Left = 0 Then
                 pan_Left = 1
                 SendKeys.Send(panLeft)
-                ListBox.Items.Add(panLeft)
+                ListBox1.Items.Add(panLeft)
 
             End If
 
         End If
 
         '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Left Thumbstick Right<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
         If currentState.ThumbSticks.Left.X > 0.5F And currentState.ThumbSticks.Left.X < 1.5F Then
+
             If pan_Right = 0 Then
                 pan_Right = 1
                 SendKeys.Send(panRight)
-                ListBox.Items.Add(panRight)
+                ListBox1.Items.Add(panRight)
 
             End If
 
@@ -725,5 +771,34 @@ Public Class Form1
 
     End Sub
 
+    'Public Sub StartandBack(currentState As GamePadState)
+    '    '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Start and Back Button <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    '    '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Wheel movement to go left and right<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+    '    '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<back<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+    '    If currentState.Buttons.Back = ButtonState.Pressed And SelectButton = 0 Then
+    '        SelectButton = 1
+    '        SendKeys.Send(LeftTurn)
+    '        ListBox1.Items.Add(LeftTurn)
+    '    End If
+    '    If currentState.Buttons.Back = ButtonState.Released And StartButton = 1 Then
+    '        StartButton = 0
+    '        SendKeys.Send(StopWheels)
+    '        ListBox1.Items.Add(StopWheels)
+    '    End If
+
+    '    '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Back<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    '    If currentState.Buttons.Start = ButtonState.Pressed And StartButton = 0 Then
+    '        StartButton = 1
+    '        SendKeys.Send(RightTurn)
+    '        ListBox1.Items.Add(RightTurn)
+    '    End If
+    '    If currentState.Buttons.Start = ButtonState.Released And StartButton = 1 Then
+    '        StartButton = 0
+    '        SendKeys.Send(StopWheels)
+    '        ListBox1.Items.Add(StopWheels)
+    '    End If
+    'End Sub
 
 End Class
