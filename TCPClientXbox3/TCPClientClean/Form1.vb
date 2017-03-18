@@ -600,7 +600,7 @@ Public Class Form1
 		End If
 
 		If currentState.DPad.Right = ButtonState.Released And DirectionalRight = 1 Then
-			DirectionalUp = 0
+			DirectionalRight = 0
 			SendKeys.Send(StopSteeringActuators)
 			ListBox1.Items.Add(StopSteeringActuators)
 
@@ -619,7 +619,7 @@ Public Class Form1
 
 		End If
 
-		If currentState2.DPad.Down = ButtonState.Released And DirectionalLeft2 = 1 Then
+		If currentState2.DPad.Left = ButtonState.Released And DirectionalLeft2 = 1 Then
 			DirectionalLeft2 = 0
 
 			SendKeys.Send(StopConveyor)
