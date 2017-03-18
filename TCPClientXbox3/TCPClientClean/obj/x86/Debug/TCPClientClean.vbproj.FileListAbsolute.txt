@@ -1,0 +1,242 @@
+C:\Users\roberts.JORE_CORP.DMN\Documents\Visual Studio 2010\Projects\TCPClientClean\TCPClientClean\bin\Debug\TCPClientClean.exe
+C:\Users\roberts.JORE_CORP.DMN\Documents\Visual Studio 2010\Projects\TCPClientClean\TCPClientClean\bin\Debug\TCPClientClean.pdb
+C:\Users\roberts.JORE_CORP.DMN\Documents\Visual Studio 2010\Projects\TCPClientClean\TCPClientClean\bin\Debug\TCPClientClean.xml
+C:\Users\roberts.JORE_CORP.DMN\Documents\Visual Studio 2010\Projects\TCPClientClean\TCPClientClean\obj\x86\Debug\TCPClientClean.Form1.resources
+C:\Users\roberts.JORE_CORP.DMN\Documents\Visual Studio 2010\Projects\TCPClientClean\TCPClientClean\obj\x86\Debug\TCPClientClean.Resources.resources
+C:\Users\roberts.JORE_CORP.DMN\Documents\Visual Studio 2010\Projects\TCPClientClean\TCPClientClean\obj\x86\Debug\TCPClientClean.vbproj.GenerateResource.Cache
+C:\Users\roberts.JORE_CORP.DMN\Documents\Visual Studio 2010\Projects\TCPClientClean\TCPClientClean\obj\x86\Debug\TCPClientClean.exe
+C:\Users\roberts.JORE_CORP.DMN\Documents\Visual Studio 2010\Projects\TCPClientClean\TCPClientClean\obj\x86\Debug\TCPClientClean.xml
+C:\Users\roberts.JORE_CORP.DMN\Documents\Visual Studio 2010\Projects\TCPClientClean\TCPClientClean\obj\x86\Debug\TCPClientClean.pdb
+G:\Programas xps\Dropbox\Dropbox\Dustytron\TCPClientClean\TCPClientClean\obj\x86\Debug\TCPClientClean.exe
+G:\Programas xps\Dropbox\Dropbox\Dustytron\TCPClientClean\TCPClientClean\obj\x86\Debug\TCPClientClean.xml
+G:\Programas xps\Dropbox\Dropbox\Dustytron\TCPClientClean\TCPClientClean\obj\x86\Debug\TCPClientClean.pdb
+G:\Programas xps\Dropbox\Dropbox\Dustytron\TCPClientClean\TCPClientClean\bin\Debug\TCPClientClean.exe
+G:\Programas xps\Dropbox\Dropbox\Dustytron\TCPClientClean\TCPClientClean\bin\Debug\TCPClientClean.pdb
+G:\Programas xps\Dropbox\Dropbox\Dustytron\TCPClientClean\TCPClientClean\bin\Debug\TCPClientClean.xml
+G:\Programas xps\Dropbox\Dropbox\Dustytron\TCPClientClean\TCPClientClean\obj\x86\Debug\TCPClientClean.Form1.resources
+G:\Programas xps\Dropbox\Dropbox\Dustytron\TCPClientClean\TCPClientClean\obj\x86\Debug\TCPClientClean.Resources.resources
+G:\Programas xps\Dropbox\Dropbox\Dustytron\TCPClientClean\TCPClientClean\obj\x86\Debug\TCPClientClean.vbproj.GenerateResource.Cache
+G:\Programas xps\Dropbox\Dropbox\Dustytron\TCPClientClean\TCPClientClean\obj\x86\Debug\TCPClientClean.vbprojResolveAssemblyReference.cache
+G:\Programas xps\Dropbox\Dropbox\Dustytron\TCPClientClean\TCPClientClean\bin\Debug\TCPClientClean.exe.config
+G:\Programas xps\Dropbox\Dropbox\Dustytron\TCPClientClean\TCPClientClean\bin\Debug\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll
+G:\Programas xps\Dropbox\Dropbox\Dustytron\TCPClientClean\TCPClientClean\bin\Debug\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll
+G:\Programas xps\Dropbox\Dropbox\Dustytron\TCPClientClean\TCPClientClean\bin\Debug\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll
+G:\Programas xps\Dropbox\Dropbox\Dustytron\TCPClientClean\TCPClientClean\bin\Debug\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll
+G:\Programas xps\Dropbox\Dropbox\Dustytron\TCPClientClean\TCPClientClean\bin\Debug\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll
+G:\Programas xps\Dropbox\Dropbox\Dustytron\TCPClientClean\TCPClientClean\bin\Debug\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll
+G:\Programas xps\Dropbox\Dropbox\Dustytron\TCPClientXbox\TCPClientClean\bin\Debug\TCPClientClean.exe.config
+G:\Programas xps\Dropbox\Dropbox\Dustytron\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.exe
+G:\Programas xps\Dropbox\Dropbox\Dustytron\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.xml
+G:\Programas xps\Dropbox\Dropbox\Dustytron\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.pdb
+G:\Programas xps\Dropbox\Dropbox\Dustytron\TCPClientXbox\TCPClientClean\bin\Debug\TCPClientClean.exe
+G:\Programas xps\Dropbox\Dropbox\Dustytron\TCPClientXbox\TCPClientClean\bin\Debug\TCPClientClean.pdb
+G:\Programas xps\Dropbox\Dropbox\Dustytron\TCPClientXbox\TCPClientClean\bin\Debug\TCPClientClean.xml
+G:\Programas xps\Dropbox\Dropbox\Dustytron\TCPClientXbox\TCPClientClean\bin\Debug\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll
+G:\Programas xps\Dropbox\Dropbox\Dustytron\TCPClientXbox\TCPClientClean\bin\Debug\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll
+G:\Programas xps\Dropbox\Dropbox\Dustytron\TCPClientXbox\TCPClientClean\bin\Debug\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll
+G:\Programas xps\Dropbox\Dropbox\Dustytron\TCPClientXbox\TCPClientClean\bin\Debug\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll
+G:\Programas xps\Dropbox\Dropbox\Dustytron\TCPClientXbox\TCPClientClean\bin\Debug\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll
+G:\Programas xps\Dropbox\Dropbox\Dustytron\TCPClientXbox\TCPClientClean\bin\Debug\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll
+G:\Programas xps\Dropbox\Dropbox\Dustytron\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.vbprojResolveAssemblyReference.cache
+G:\Programas xps\Dropbox\Dropbox\Dustytron\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.Form1.resources
+G:\Programas xps\Dropbox\Dropbox\Dustytron\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.Resources.resources
+G:\Programas xps\Dropbox\Dropbox\Dustytron\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.vbproj.GenerateResource.Cache
+G:\Programas xps\Dropbox\Dropbox\Dustytron\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.ButtonLayout.resources
+C:\Users\COAS Student\Desktop\DustyTronController\TCPClientXbox\TCPClientClean\bin\Debug\TCPClientClean.exe.config
+C:\Users\COAS Student\Desktop\DustyTronController\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.exe
+C:\Users\COAS Student\Desktop\DustyTronController\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.xml
+C:\Users\COAS Student\Desktop\DustyTronController\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.pdb
+C:\Users\COAS Student\Desktop\DustyTronController\TCPClientXbox\TCPClientClean\bin\Debug\TCPClientClean.exe
+C:\Users\COAS Student\Desktop\DustyTronController\TCPClientXbox\TCPClientClean\bin\Debug\TCPClientClean.pdb
+C:\Users\COAS Student\Desktop\DustyTronController\TCPClientXbox\TCPClientClean\bin\Debug\TCPClientClean.xml
+C:\Users\COAS Student\Desktop\DustyTronController\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.vbprojResolveAssemblyReference.cache
+C:\Users\COAS Student\Desktop\DustyTronController\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.ButtonLayout.resources
+C:\Users\COAS Student\Desktop\DustyTronController\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.Form1.resources
+C:\Users\COAS Student\Desktop\DustyTronController\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.Resources.resources
+C:\Users\COAS Student\Desktop\DustyTronController\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.vbproj.GenerateResource.Cache
+C:\Users\LOL\Desktop\DustyTronController\TCPClientXbox\TCPClientClean\bin\Debug\TCPClientClean.exe.config
+C:\Users\LOL\Desktop\DustyTronController\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.exe
+C:\Users\LOL\Desktop\DustyTronController\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.xml
+C:\Users\LOL\Desktop\DustyTronController\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.pdb
+C:\Users\LOL\Desktop\DustyTronController\TCPClientXbox\TCPClientClean\bin\Debug\TCPClientClean.exe
+C:\Users\LOL\Desktop\DustyTronController\TCPClientXbox\TCPClientClean\bin\Debug\TCPClientClean.pdb
+C:\Users\LOL\Desktop\DustyTronController\TCPClientXbox\TCPClientClean\bin\Debug\TCPClientClean.xml
+C:\Users\LOL\Desktop\DustyTronController\TCPClientXbox\TCPClientClean\bin\Debug\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll
+C:\Users\LOL\Desktop\DustyTronController\TCPClientXbox\TCPClientClean\bin\Debug\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll
+C:\Users\LOL\Desktop\DustyTronController\TCPClientXbox\TCPClientClean\bin\Debug\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll
+C:\Users\LOL\Desktop\DustyTronController\TCPClientXbox\TCPClientClean\bin\Debug\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll
+C:\Users\LOL\Desktop\DustyTronController\TCPClientXbox\TCPClientClean\bin\Debug\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll
+C:\Users\LOL\Desktop\DustyTronController\TCPClientXbox\TCPClientClean\bin\Debug\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll
+C:\Users\LOL\Desktop\DustyTronController\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.vbprojResolveAssemblyReference.cache
+C:\Users\LOL\Desktop\DustyTronController\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.ButtonLayout.resources
+C:\Users\LOL\Desktop\DustyTronController\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.Form1.resources
+C:\Users\LOL\Desktop\DustyTronController\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.Resources.resources
+C:\Users\LOL\Desktop\DustyTronController\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.vbproj.GenerateResource.Cache
+C:\Users\LOL\Desktop\DustyTronController - copia\TCPClientXbox\TCPClientClean\bin\Debug\TCPClientClean.exe.config
+C:\Users\LOL\Desktop\DustyTronController - copia\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.exe
+C:\Users\LOL\Desktop\DustyTronController - copia\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.xml
+C:\Users\LOL\Desktop\DustyTronController - copia\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.pdb
+C:\Users\LOL\Desktop\DustyTronController - copia\TCPClientXbox\TCPClientClean\bin\Debug\TCPClientClean.exe
+C:\Users\LOL\Desktop\DustyTronController - copia\TCPClientXbox\TCPClientClean\bin\Debug\TCPClientClean.pdb
+C:\Users\LOL\Desktop\DustyTronController - copia\TCPClientXbox\TCPClientClean\bin\Debug\TCPClientClean.xml
+C:\Users\LOL\Desktop\DustyTronController - copia\TCPClientXbox\TCPClientClean\bin\Debug\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll
+C:\Users\LOL\Desktop\DustyTronController - copia\TCPClientXbox\TCPClientClean\bin\Debug\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll
+C:\Users\LOL\Desktop\DustyTronController - copia\TCPClientXbox\TCPClientClean\bin\Debug\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll
+C:\Users\LOL\Desktop\DustyTronController - copia\TCPClientXbox\TCPClientClean\bin\Debug\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll
+C:\Users\LOL\Desktop\DustyTronController - copia\TCPClientXbox\TCPClientClean\bin\Debug\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll
+C:\Users\LOL\Desktop\DustyTronController - copia\TCPClientXbox\TCPClientClean\bin\Debug\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll
+C:\Users\LOL\Desktop\DustyTronController - copia\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.vbprojResolveAssemblyReference.cache
+C:\Users\LOL\Desktop\DustyTronController - copia\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.ButtonLayout.resources
+C:\Users\LOL\Desktop\DustyTronController - copia\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.Form1.resources
+C:\Users\LOL\Desktop\DustyTronController - copia\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.Resources.resources
+C:\Users\LOL\Desktop\DustyTronController - copia\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.vbproj.GenerateResource.Cache
+C:\Users\LOL\Desktop\DustyTronController - use this one\TCPClientXbox\TCPClientClean\bin\Debug\TCPClientClean.exe.config
+C:\Users\LOL\Desktop\DustyTronController - use this one\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.exe
+C:\Users\LOL\Desktop\DustyTronController - use this one\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.xml
+C:\Users\LOL\Desktop\DustyTronController - use this one\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.pdb
+C:\Users\LOL\Desktop\DustyTronController - use this one\TCPClientXbox\TCPClientClean\bin\Debug\TCPClientClean.exe
+C:\Users\LOL\Desktop\DustyTronController - use this one\TCPClientXbox\TCPClientClean\bin\Debug\TCPClientClean.pdb
+C:\Users\LOL\Desktop\DustyTronController - use this one\TCPClientXbox\TCPClientClean\bin\Debug\TCPClientClean.xml
+C:\Users\LOL\Desktop\DustyTronController - use this one\TCPClientXbox\TCPClientClean\bin\Debug\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll
+C:\Users\LOL\Desktop\DustyTronController - use this one\TCPClientXbox\TCPClientClean\bin\Debug\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll
+C:\Users\LOL\Desktop\DustyTronController - use this one\TCPClientXbox\TCPClientClean\bin\Debug\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll
+C:\Users\LOL\Desktop\DustyTronController - use this one\TCPClientXbox\TCPClientClean\bin\Debug\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll
+C:\Users\LOL\Desktop\DustyTronController - use this one\TCPClientXbox\TCPClientClean\bin\Debug\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll
+C:\Users\LOL\Desktop\DustyTronController - use this one\TCPClientXbox\TCPClientClean\bin\Debug\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll
+C:\Users\LOL\Desktop\DustyTronController - use this one\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.vbprojResolveAssemblyReference.cache
+C:\Users\LOL\Desktop\DustyTronController - use this one\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.ButtonLayout.resources
+C:\Users\LOL\Desktop\DustyTronController - use this one\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.Form1.resources
+C:\Users\LOL\Desktop\DustyTronController - use this one\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.Resources.resources
+C:\Users\LOL\Desktop\DustyTronController - use this one\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.vbproj.GenerateResource.Cache
+C:\Users\LOL\Desktop\Ultimate controller amazing coding\TCPClientXbox\TCPClientClean\bin\Debug\TCPClientClean.exe.config
+C:\Users\LOL\Desktop\Ultimate controller amazing coding\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.exe
+C:\Users\LOL\Desktop\Ultimate controller amazing coding\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.xml
+C:\Users\LOL\Desktop\Ultimate controller amazing coding\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.pdb
+C:\Users\LOL\Desktop\Ultimate controller amazing coding\TCPClientXbox\TCPClientClean\bin\Debug\TCPClientClean.exe
+C:\Users\LOL\Desktop\Ultimate controller amazing coding\TCPClientXbox\TCPClientClean\bin\Debug\TCPClientClean.pdb
+C:\Users\LOL\Desktop\Ultimate controller amazing coding\TCPClientXbox\TCPClientClean\bin\Debug\TCPClientClean.xml
+C:\Users\LOL\Desktop\Ultimate controller amazing coding\TCPClientXbox\TCPClientClean\bin\Debug\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll
+C:\Users\LOL\Desktop\Ultimate controller amazing coding\TCPClientXbox\TCPClientClean\bin\Debug\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll
+C:\Users\LOL\Desktop\Ultimate controller amazing coding\TCPClientXbox\TCPClientClean\bin\Debug\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll
+C:\Users\LOL\Desktop\Ultimate controller amazing coding\TCPClientXbox\TCPClientClean\bin\Debug\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll
+C:\Users\LOL\Desktop\Ultimate controller amazing coding\TCPClientXbox\TCPClientClean\bin\Debug\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll
+C:\Users\LOL\Desktop\Ultimate controller amazing coding\TCPClientXbox\TCPClientClean\bin\Debug\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll
+C:\Users\LOL\Desktop\Ultimate controller amazing coding\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.vbprojResolveAssemblyReference.cache
+C:\Users\LOL\Desktop\Ultimate controller amazing coding\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.ButtonLayout.resources
+C:\Users\LOL\Desktop\Ultimate controller amazing coding\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.Form1.resources
+C:\Users\LOL\Desktop\Ultimate controller amazing coding\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.Resources.resources
+C:\Users\LOL\Desktop\Ultimate controller amazing coding\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.vbproj.GenerateResource.Cache
+C:\Users\LOL\Desktop\Ultimate controller amazing coding - no delay\TCPClientXbox\TCPClientClean\bin\Debug\TCPClientClean.exe.config
+C:\Users\LOL\Desktop\Ultimate controller amazing coding - no delay\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.exe
+C:\Users\LOL\Desktop\Ultimate controller amazing coding - no delay\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.xml
+C:\Users\LOL\Desktop\Ultimate controller amazing coding - no delay\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.pdb
+C:\Users\LOL\Desktop\Ultimate controller amazing coding - no delay\TCPClientXbox\TCPClientClean\bin\Debug\TCPClientClean.exe
+C:\Users\LOL\Desktop\Ultimate controller amazing coding - no delay\TCPClientXbox\TCPClientClean\bin\Debug\TCPClientClean.pdb
+C:\Users\LOL\Desktop\Ultimate controller amazing coding - no delay\TCPClientXbox\TCPClientClean\bin\Debug\TCPClientClean.xml
+C:\Users\LOL\Desktop\Ultimate controller amazing coding - no delay\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.vbprojResolveAssemblyReference.cache
+C:\Users\LOL\Desktop\Ultimate controller amazing coding - no delay\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.ButtonLayout.resources
+C:\Users\LOL\Desktop\Ultimate controller amazing coding - no delay\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.Form1.resources
+C:\Users\LOL\Desktop\Ultimate controller amazing coding - no delay\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.Resources.resources
+C:\Users\LOL\Desktop\Ultimate controller amazing coding - no delay\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.vbproj.GenerateResource.Cache
+F:\TJDesktop\Ultimate controller amazing coding - no delay\TCPClientXbox\TCPClientClean\bin\Debug\TCPClientClean.exe.config
+F:\TJDesktop\Ultimate controller amazing coding - no delay\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.exe
+F:\TJDesktop\Ultimate controller amazing coding - no delay\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.xml
+F:\TJDesktop\Ultimate controller amazing coding - no delay\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.pdb
+F:\TJDesktop\Ultimate controller amazing coding - no delay\TCPClientXbox\TCPClientClean\bin\Debug\TCPClientClean.exe
+F:\TJDesktop\Ultimate controller amazing coding - no delay\TCPClientXbox\TCPClientClean\bin\Debug\TCPClientClean.pdb
+F:\TJDesktop\Ultimate controller amazing coding - no delay\TCPClientXbox\TCPClientClean\bin\Debug\TCPClientClean.xml
+F:\TJDesktop\Ultimate controller amazing coding - no delay\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.vbprojResolveAssemblyReference.cache
+F:\TJDesktop\Ultimate controller amazing coding - no delay\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.ButtonLayout.resources
+F:\TJDesktop\Ultimate controller amazing coding - no delay\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.Form1.resources
+F:\TJDesktop\Ultimate controller amazing coding - no delay\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.Resources.resources
+F:\TJDesktop\Ultimate controller amazing coding - no delay\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.vbproj.GenerateResource.Cache
+C:\Users\LOL\Desktop\Dusty2\TCPClientXbox\TCPClientClean\bin\Debug\TCPClientClean.exe.config
+C:\Users\LOL\Desktop\Dusty2\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.exe
+C:\Users\LOL\Desktop\Dusty2\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.xml
+C:\Users\LOL\Desktop\Dusty2\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.pdb
+C:\Users\LOL\Desktop\Dusty2\TCPClientXbox\TCPClientClean\bin\Debug\TCPClientClean.exe
+C:\Users\LOL\Desktop\Dusty2\TCPClientXbox\TCPClientClean\bin\Debug\TCPClientClean.pdb
+C:\Users\LOL\Desktop\Dusty2\TCPClientXbox\TCPClientClean\bin\Debug\TCPClientClean.xml
+C:\Users\LOL\Desktop\Dusty2\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.vbprojResolveAssemblyReference.cache
+C:\Users\LOL\Desktop\Dusty2\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.ButtonLayout.resources
+C:\Users\LOL\Desktop\Dusty2\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.Form1.resources
+C:\Users\LOL\Desktop\Dusty2\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.Resources.resources
+C:\Users\LOL\Desktop\Dusty2\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.vbproj.GenerateResource.Cache
+C:\Users\DustyTRON\Desktop\Dusty2\Dusty2\TCPClientXbox\TCPClientClean\bin\Debug\TCPClientClean.exe.config
+C:\Users\DustyTRON\Desktop\Dusty2\Dusty2\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.exe
+C:\Users\DustyTRON\Desktop\Dusty2\Dusty2\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.xml
+C:\Users\DustyTRON\Desktop\Dusty2\Dusty2\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.pdb
+C:\Users\DustyTRON\Desktop\Dusty2\Dusty2\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.vbprojResolveAssemblyReference.cache
+C:\Users\DustyTRON\Desktop\Dusty2\Dusty2\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.ButtonLayout.resources
+C:\Users\DustyTRON\Desktop\Dusty2\Dusty2\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.Form1.resources
+C:\Users\DustyTRON\Desktop\Dusty2\Dusty2\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.Resources.resources
+C:\Users\DustyTRON\Desktop\Dusty2\Dusty2\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.vbproj.GenerateResource.Cache
+C:\Users\DustyTRON\Desktop\Dusty2\Dusty2\TCPClientXbox\TCPClientClean\bin\Debug\TCPClientClean.exe
+C:\Users\DustyTRON\Desktop\Dusty2\Dusty2\TCPClientXbox\TCPClientClean\bin\Debug\TCPClientClean.pdb
+C:\Users\DustyTRON\Desktop\Dusty2\Dusty2\TCPClientXbox\TCPClientClean\bin\Debug\TCPClientClean.xml
+D:\DustyTRON\DustyTron Software\TCPClientXbox\TCPClientXbox\TCPClientClean\bin\Debug\TCPClientClean.exe.config
+D:\DustyTRON\DustyTron Software\TCPClientXbox\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.exe
+D:\DustyTRON\DustyTron Software\TCPClientXbox\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.xml
+D:\DustyTRON\DustyTron Software\TCPClientXbox\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.pdb
+D:\DustyTRON\DustyTron Software\TCPClientXbox\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.vbprojResolveAssemblyReference.cache
+D:\DustyTRON\DustyTron Software\TCPClientXbox\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.ButtonLayout.resources
+D:\DustyTRON\DustyTron Software\TCPClientXbox\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.Form1.resources
+D:\DustyTRON\DustyTron Software\TCPClientXbox\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.Resources.resources
+D:\DustyTRON\DustyTron Software\TCPClientXbox\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.vbproj.GenerateResource.Cache
+G:\DustyTRON\DustyTron Software\TCPClientXbox\TCPClientXbox\TCPClientClean\bin\Debug\TCPClientClean.exe.config
+G:\DustyTRON\DustyTron Software\TCPClientXbox\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.exe
+G:\DustyTRON\DustyTron Software\TCPClientXbox\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.xml
+G:\DustyTRON\DustyTron Software\TCPClientXbox\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.pdb
+G:\DustyTRON\DustyTron Software\TCPClientXbox\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.vbprojResolveAssemblyReference.cache
+G:\DustyTRON\DustyTron Software\TCPClientXbox\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.ButtonLayout.resources
+G:\DustyTRON\DustyTron Software\TCPClientXbox\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.Form1.resources
+G:\DustyTRON\DustyTron Software\TCPClientXbox\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.Resources.resources
+G:\DustyTRON\DustyTron Software\TCPClientXbox\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.vbproj.GenerateResource.Cache
+D:\DustyTRON\DustyTron Software\TCPClientXbox3.0\TCPClientXbox\TCPClientClean\bin\Debug\TCPClientClean.exe.config
+G:\DustyTRON\DustyTron Software\TCPClientXbox3.0\TCPClientXbox\TCPClientClean\bin\Debug\TCPClientClean.exe.config
+G:\DustyTRON\DustyTron Software\TCPClientXbox3.0\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.vbprojResolveAssemblyReference.cache
+G:\DustyTRON\DustyTron Software\TCPClientXbox3.0\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.ButtonLayout.resources
+G:\DustyTRON\DustyTron Software\TCPClientXbox3.0\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.Form1.resources
+G:\DustyTRON\DustyTron Software\TCPClientXbox3.0\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.Resources.resources
+G:\DustyTRON\DustyTron Software\TCPClientXbox3.0\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.vbproj.GenerateResource.Cache
+D:\DustyTRON\DustyTron Software\TCPClientXbox3.0\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.vbprojResolveAssemblyReference.cache
+D:\DustyTRON\DustyTron Software\TCPClientXbox3.0\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.ButtonLayout.resources
+D:\DustyTRON\DustyTron Software\TCPClientXbox3.0\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.Form1.resources
+D:\DustyTRON\DustyTron Software\TCPClientXbox3.0\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.Resources.resources
+D:\DustyTRON\DustyTron Software\TCPClientXbox3.0\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.vbproj.GenerateResource.Cache
+D:\DustyTRON\DustyTron Software\TCPClientXbox3.0\TCPClientXbox\TCPClientClean\bin\Debug\TCPClientClean.exe
+D:\DustyTRON\DustyTron Software\TCPClientXbox3.0\TCPClientXbox\TCPClientClean\bin\Debug\TCPClientClean.pdb
+D:\DustyTRON\DustyTron Software\TCPClientXbox3.0\TCPClientXbox\TCPClientClean\bin\Debug\TCPClientClean.xml
+D:\DustyTRON\DustyTron Software\TCPClientXbox3.0\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.exe
+D:\DustyTRON\DustyTron Software\TCPClientXbox3.0\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.xml
+D:\DustyTRON\DustyTron Software\TCPClientXbox3.0\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.pdb
+G:\DustyTRON\DustyTron Software\TCPClientXbox3.0\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.exe
+G:\DustyTRON\DustyTron Software\TCPClientXbox3.0\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.xml
+G:\DustyTRON\DustyTron Software\TCPClientXbox3.0\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.pdb
+G:\DustyTRON\DustyTron Software\TCPClientXbox3.0\TCPClientXbox\TCPClientClean\bin\Debug\TCPClientClean.exe
+G:\DustyTRON\DustyTron Software\TCPClientXbox3.0\TCPClientXbox\TCPClientClean\bin\Debug\TCPClientClean.pdb
+G:\DustyTRON\DustyTron Software\TCPClientXbox3.0\TCPClientXbox\TCPClientClean\bin\Debug\TCPClientClean.xml
+C:\Users\Lisa\Documents\DustyTRON\Software Git\TCPClientXbox\TCPClientClean\bin\Debug\TCPClientClean.exe.config
+C:\Users\Lisa\Documents\DustyTRON\Software Git\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.exe
+C:\Users\Lisa\Documents\DustyTRON\Software Git\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.xml
+C:\Users\Lisa\Documents\DustyTRON\Software Git\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.pdb
+C:\Users\Lisa\Documents\DustyTRON\Software Git\TCPClientXbox\TCPClientClean\bin\Debug\TCPClientClean.exe
+C:\Users\Lisa\Documents\DustyTRON\Software Git\TCPClientXbox\TCPClientClean\bin\Debug\TCPClientClean.pdb
+C:\Users\Lisa\Documents\DustyTRON\Software Git\TCPClientXbox\TCPClientClean\bin\Debug\TCPClientClean.xml
+C:\Users\Lisa\Documents\DustyTRON\Software Git\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.vbprojResolveAssemblyReference.cache
+C:\Users\Lisa\Documents\DustyTRON\Software Git\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.ButtonLayout.resources
+C:\Users\Lisa\Documents\DustyTRON\Software Git\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.Form1.resources
+C:\Users\Lisa\Documents\DustyTRON\Software Git\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.Resources.resources
+C:\Users\Lisa\Documents\DustyTRON\Software Git\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.vbproj.GenerateResource.Cache
+C:\Users\Alejandro Vazquez\Desktop\DustyTRON-master\DustyTRON-master\TCPClientXbox\TCPClientClean\bin\Debug\TCPClientClean.exe.config
+C:\Users\Alejandro Vazquez\Desktop\DustyTRON-master\DustyTRON-master\TCPClientXbox\TCPClientClean\bin\Debug\TCPClientClean.exe
+C:\Users\Alejandro Vazquez\Desktop\DustyTRON-master\DustyTRON-master\TCPClientXbox\TCPClientClean\bin\Debug\TCPClientClean.pdb
+C:\Users\Alejandro Vazquez\Desktop\DustyTRON-master\DustyTRON-master\TCPClientXbox\TCPClientClean\bin\Debug\TCPClientClean.xml
+C:\Users\Alejandro Vazquez\Desktop\DustyTRON-master\DustyTRON-master\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.vbprojResolveAssemblyReference.cache
+C:\Users\Alejandro Vazquez\Desktop\DustyTRON-master\DustyTRON-master\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.ButtonLayout.resources
+C:\Users\Alejandro Vazquez\Desktop\DustyTRON-master\DustyTRON-master\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.Form1.resources
+C:\Users\Alejandro Vazquez\Desktop\DustyTRON-master\DustyTRON-master\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.Resources.resources
+C:\Users\Alejandro Vazquez\Desktop\DustyTRON-master\DustyTRON-master\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.vbproj.GenerateResource.Cache
+C:\Users\Alejandro Vazquez\Desktop\DustyTRON-master\DustyTRON-master\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.exe
+C:\Users\Alejandro Vazquez\Desktop\DustyTRON-master\DustyTRON-master\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.xml
+C:\Users\Alejandro Vazquez\Desktop\DustyTRON-master\DustyTRON-master\TCPClientXbox\TCPClientClean\obj\x86\Debug\TCPClientClean.pdb
