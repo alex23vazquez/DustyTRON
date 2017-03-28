@@ -75,21 +75,21 @@ int pwm_FrontBack = 7;// PWM Pin 7 of arduino to M1PWM
 //Polulu Motor Drive #6
 //// Two sliding actuators are moving it up and down
 //*******************(Vertical Sliding Auger Actuators)************************/
-int AM1A_Vertical = 38; // Digital Pin 44 of arduino to M1NA of Pololu
-int AM1B_Vertical = 39; // Digital Pin 45 of arduino to M1NB of Pololu
+int AM1A_Vertical = 38; // Digital Pin 38 of arduino to M1NA of Pololu
+int AM1B_Vertical = 39; // Digital Pin 39 of arduino to M1NB of Pololu
 int pwm_Vertical = 8; // PWM Pin 8 of arduino to M2PWM
                                 //Conveyor Variables
 //Polulu Motor Drive also #6
 //*******************(Conveyor)************************/
-int CM1A = 40;//Digital Pin 48 of arduino to M2NA of Pololu
-int CM1B = 41;//Digital pin 49 of arduino to M2NB of Pololu
+int CM1A = 40;//Digital Pin 40 of arduino to M2NA of Pololu
+int CM1B = 41;//Digital pin 41 of arduino to M2NB of Pololu
 int pwm_conveyor = 9;// PWM Pin 9 of arduino to M1PWM
 
 // Pololu Motor Drive #7
 //*******************(Auger Excavator)************************/
-int EM1A = 44;//Digital Pin 48 of arduino to M1NA of Pololu
-int EM1B = 45;//Digital pin 49 of arduino to M2NA of Pololu
-int pwm_excavate = 10;// PWM Pin 9 of arduino to M1PWM and M2PWM
+int EM1A = 44;//Digital Pin 44 of arduino to M1NA of Pololu
+int EM1B = 45;//Digital pin 45 of arduino to M2NA of Pololu
+int pwm_excavate = 10;// PWM Pin 10 of arduino to M1PWM and M2PWM
 
 
 //Augger Variables
