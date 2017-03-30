@@ -177,23 +177,23 @@ if(command == '7'){  //Increment the speed
   {
     Serial.print(augspd);
   }else{ // if the value is not 255 when 2 is pressed then it will higher it by 15 each time
-   spd+= 51;
+   augspd+= 51;
   } 
 }
 
 if(command == '6'){  //Decrement the speed
-  if (spd == 0) // 0 is the minimum, if the speed is 0 then that value is printed.
+  if (augspd == 0) // 0 is the minimum, if the speed is 0 then that value is printed.
   {
    Serial.print(augspd);
   }else{ // if the value is not 0 then the speed will be decremented by 15 each time 1 is pressed.
-   spd-= 51;
+   augspd-= 51;
    }
 } 
 // the augger speeds are modified
 // you must first higher the speed so that the commands work
 //******************************Augger Excavations*****************************//
 
-if(command == 'i') // stop wheels
+if(command == 'i') // stop excavating
 {
   analogWrite(pwm_excavate, 0);
 }
@@ -203,10 +203,10 @@ if(command == 'l')  //Excavate
   augerwrite(1, EM1A, EM1B); // reactivate forward
   augerSpeed(2, augspd, pwm_excavate);//reactivate
 }
-if(command == 'j')  //Reverse Excavate
+if(command == 'k')  //Reverse Excavate
 {
   augerwrite(2, EM1A, EM1B); // reactivate reverse
-  augerSpeed(2, spd, pwm_excavate);//reactivate
+  augerSpeed(2, augspd, pwm_excavate);//reactivate
 }
 
 
