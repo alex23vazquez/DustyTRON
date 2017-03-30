@@ -60,8 +60,8 @@ Public Class Form1
 
 	Dim RightThumbDown2 As Integer = 0
 	Dim RightThumbUp2 As Integer = 0
-	Dim AugerExcavate As Char = "k"
-	Dim AugerRevExcavate As Char = "h"
+	Dim AugerExcavate As Char = "l"
+	Dim AugerRevExcavate As Char = "k"
 
 	'Dim RightThumbLeft2 As Integer = 0
 	'Dim RightThumbRight2 As Integer = 0
