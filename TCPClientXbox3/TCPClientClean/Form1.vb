@@ -591,21 +591,20 @@ Public Class Form1
 			ListBox1.Items.Add(StopSteeringActuators)
 		End If
 
-		'<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Directional Pad Right<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-		If currentState.DPad.Right = ButtonState.Pressed And DirectionalRight = 0 Then
-			DirectionalRight = 1
-			SendKeys.Send(ExtendSteeringActuators)
-			ListBox1.Items.Add(ExtendSteeringActuators)
+        '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Directional Pad Right<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+        If currentState.DPad.Right = ButtonState.Pressed And DirectionalRight = 0 Then
+            DirectionalRight = 1
+            SendKeys.Send(ExtendSteeringActuators)
+            ListBox1.Items.Add(ExtendSteeringActuators)
 
-		End If
+        End If
 
-		If currentState.DPad.Right = ButtonState.Released And DirectionalRight = 1 Then
-			DirectionalRight = 0
-			SendKeys.Send(StopSteeringActuators)
-			ListBox1.Items.Add(StopSteeringActuators)
-
-		End If
-	End Sub
+        If currentState.DPad.Right = ButtonState.Released And DirectionalRight = 1 Then
+            DirectionalRight = 0
+            SendKeys.Send(StopSteeringActuators)
+            ListBox1.Items.Add(StopSteeringActuators)
+        End If
+    End Sub
 
     Public Sub dpad2(currentState2 As GamePadState)
 
