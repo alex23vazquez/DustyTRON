@@ -29,63 +29,60 @@ int augspd = 0;
                           //Wheel Variables (The digital pins are directed to Arduino) (Other wire leads to Pololu)
 
 //Polulu Motor Drive #1
-//*******************(Front Wheels)************************/
+//*******************(Left Side Wheels)************************/
 //*******************(Front-Left Wheels)************************/
 //WM means wheel motor
 int WM1A_LeftFront = 22;// Digital Pin 22 of arduino to M1NA of Pololu
 int WM1B_LeftFront = 23;// Digital pin 23 of arduino to M2NA of Pololu
 int pwm_LeftFront = 2;// PWM Pin 2 of arduino to M1PWM and M2PWM
 
-//Polulu Motor Drive #2 
-//*******************(Front-Right Wheels)************************/
-int WM1A_RightFront = 24;// Digital Pin 24 of arduino to M1NA of Pololu
-int WM1B_RightFront = 25;// Digital pin 25 of arduino to M2NA of Pololu
-int pwm_RightFront = 3;// PWM Pin 3 of arduino to M1PWM and M2PWM
-
-//*******************(Rear Wheels)************************/
-//Polulu Motor Drive #3
 //*******************(Back-Left Wheels)************************/
-int WM1A_LeftBack = 26;//Digital Pin 26 of arduino to M1NA of Pololu
-int WM1B_LeftBack = 27;//Digital pin 27 of arduino to M2NA of Pololu
-int pwm_LeftBack = 4;// PWM Pin 4 of arduino to M1PWM and M2PWM
+int WM1A_LeftBack = 24;//Digital Pin 26 of arduino to M1NA of Pololu
+int WM1B_LeftBack = 25;//Digital pin 27 of arduino to M2NA of Pololu
+int pwm_LeftBack = 3;// PWM Pin 4 of arduino to M1PWM and M2PWM
 
-//Polulu Motor Drive #4
+//Polulu Motor Drive #2 
+//*******************(Right Wheels)************************/
+//*******************(Front-Right Wheels)************************/
+int WM1A_RightFront = 26;// Digital Pin 24 of arduino to M1NA of Pololu
+int WM1B_RightFront = 27;// Digital pin 25 of arduino to M2NA of Pololu
+int pwm_RightFront = 4;// PWM Pin 3 of arduino to M1PWM and M2PWM
+
 //*******************(Back-Right Wheels)************************/
 int WM1A_RightBack = 28;//Digital Pin 28 of arduino to M1NA of Pololu
 int WM1B_RightBack = 29;//Digital pin 29 of arduino to M2NA of Pololu
 int pwm_RightBack = 5;// PWM Pin 5 of arduino to M1PWM and M2PWM
-
-                          // Steering Actuators
-//Pololu Motor Drive #5
+           
+//Pololu Motor Drive #3
+// Steering Actuators
 // All these 4 actuators are connected to the same Pololu
 //******************(Front & Back wheel Actuator)*******************/ The front and back steering actuators are joined together as one
 //SA means steering actuator
 int SA1A_FrontBack = 32; //digital pin 32 of arduino to M1NA of Pololu
 int SA1B_FrontBack = 33; // digital pin 33 of arduino to M1NB of Pololu
 int pwm_FrontBacksteering = 6; // PWM Pin 6 of arduino to M1PWM
-
+//Pololu Motor Drive #3
 //*************************(Lifting and Lowering Robot Actuators)***********************************
-//Polulu Motor Drive Also #5
 //// All these 4 actuators are connected to the same Pololu
 //*******************(Robot Lift, Up & Down)************************/
 int LM1A_FrontBack = 34; //Digital Pin 34 of arduino to M2NA of Pololu
 int LM1B_FrontBack = 35; //Digital pin 35 of arduino to M2NB of Pololu
 int pwm_FrontBack = 7;// PWM Pin 7 of arduino to M1PWM
 
-//Polulu Motor Drive #6
+//Polulu Motor Drive #4
 //// Two sliding actuators are moving it up and down
 //*******************(Vertical Sliding Auger Actuators)************************/
 int AM1A_Vertical = 38; // Digital Pin 38 of arduino to M1NA of Pololu
 int AM1B_Vertical = 39; // Digital Pin 39 of arduino to M1NB of Pololu
 int pwm_Vertical = 8; // PWM Pin 8 of arduino to M2PWM
                                 //Conveyor Variables
-//Polulu Motor Drive also #6
+//Polulu Motor Drive also #4
 //*******************(Conveyor)************************/
 int CM1A = 40;//Digital Pin 40 of arduino to M2NA of Pololu
 int CM1B = 41;//Digital pin 41 of arduino to M2NB of Pololu
 int pwm_conveyor = 9;// PWM Pin 9 of arduino to M1PWM
 
-// Pololu Motor Drive #7
+// Pololu Motor Drive #5
 //*******************(Auger Excavator)************************/
 int EM1A = 44;//Digital Pin 44 of arduino to M1NA of Pololu
 int EM1B = 45;//Digital pin 45 of arduino to M2NA of Pololu
